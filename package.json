@@ -1,0 +1,48 @@
+{
+  "name": "hpcl",
+  "version": "1.0.0",
+  "description": "A chat application build with node,mango, express and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtripti/hpcl.git"
+  },
+  "author": "Tripti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtripti/hpcl/issues"
+  },
+  "homepage": "https://github.com/gtripti/hpcl#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "autoloader": "^2.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "dependable": "^1.1.0",
+    "ejs": "^2.6.1",
+    "ejs-lint": "^0.3.0",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.2.0",
+    "flash": "^1.1.0",
+    "formidable": "^1.2.1",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.7",
+    "npm": "^6.2.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "save": "^2.3.2",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
